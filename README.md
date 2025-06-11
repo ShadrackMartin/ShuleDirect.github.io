@@ -38,3 +38,16 @@ To run locally:
 git clone https://github.com/yourusername/yourusername.github.io.git
 cd yourusername.github.io
 # Open index.html in your browser
+
+## File Structure
+
+.
+├── index.html          # Homepage
+├── schools.html        # School listings
+├── about.html          # About page
+├── contact.html        # Contact form
+├── style.css           # Main stylesheet
+├── assets/             # Static assets
+│   ├── images/         # School photos/logos
+│   └── icons/          # SVG icons
+└── README.md           # This file
