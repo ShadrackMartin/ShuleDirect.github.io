@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shule Direct | Tafuta Shule Bora Tanzania</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Shule<span>Direct</span></h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="active">Nyumbani</a></li>
+                    <li><a href="schools.html">Shule</a></li>
+                    <li><a href="about.html">Kuhusu</a></li>
+                    <li><a href="contact.html">Wasiliana</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn">☰</button>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h2>Tafuta Shule Bora Zaidi Tanzania</h2>
+                <p>Pata taarifa sahihi kuhusu ada, ufanisi, na maelezo ya shule zote za Tanzania</p>
+                
+                <form class="search-form">
+                    <select>
+                        <option value="">Chagua Mkoa</option>
+                        <option value="dar">Dar es Salaam</option>
+                        <option value="mwanza">Mwanza</option>
+                        <option value="arusha">Arusha</option>
+                    </select>
+                    <select>
+                        <option value="">Aina ya Shule</option>
+                        <option value="primary">Msingi</option>
+                        <option value="secondary">Sekondari</option>
+                        <option value="vocational">Ufundi</option>
+                    </select>
+                    <button type="submit">Tafuta</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="feature-card">
+                    <span class="icon">🏫</span>
+                    <h3>Shule 1,000+</h3>
+                    <p>Orodha ya shule nzuri zaidi kote Tanzania</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">📊</span>
+                    <h3>Matokeo ya Mitihani</h3>
+                    <p>Takwimu za ufaulu wa wanafunzi</p>
+                </div>
+                <div class="feature-card">
+                    <span class="icon">💬</span>
+                    <h3>Maoni ya Wazazi</h3>
+                    <p>Uzoefu wa watumiaji wa shule</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Shule Direct. Haki zote zimehifadhiwa.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple mobile menu toggle (no jQuery)
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('.nav ul').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
